@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/DesignMode/ObserverMode.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignMode/SingletonMode.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignMode/StrategyMode.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignMode/abstractFactoryMode.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SmartPointers/auto_ptr.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SmartPointers/shared_ptr.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SmartPointers/unique_ptr.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/workSpace/libraryManage.c" charset="GBK" />
+  </component>
+</project>

@@ -1,0 +1,32 @@
+cmake_minimum_required(VERSION 3.25)
+project(demo)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(demo "Plants vs Zombies/demo.cpp")
+
+
+add_executable(mutex_test thread/mutex_test.cpp)
+add_executable(client NetWorkCode/client.cpp)
+add_executable(server NetWorkCode/server.cpp)
+add_executable(addr_test class_test/addr_test.cpp)
+add_executable(multi_status class_test/multi_status.cpp)
+add_executable(test lambda/test.cpp)
+add_executable(lambda_this lambda/lambda_this.cpp)
+add_executable(constexpr_test constexpr/constexpr_test.cpp)
+add_executable(auto_ptr SmartPointers/auto_ptr.cpp)
+add_executable(unique_ptr SmartPointers/unique_ptr.cpp)
+add_executable(shared_ptr SmartPointers/shared_ptr.cpp)
+add_executable(expired SmartPointers/expired.cpp)
+add_executable(move SmartPointers/move.cpp)
+add_executable(arr_test arr_test.cpp)
+add_executable(libraryManage workSpace/libraryManage.c)
+
+add_executable(lr_value lvalue_rvalue/lr_value.cpp)
+add_executable(abstractFactoryMode DesignMode/abstractFactoryMode.cpp)
+add_executable(SingletonMode DesignMode/SingletonMode.cpp)
+add_executable(ObserverMode DesignMode/ObserverMode.cpp)
+add_executable(StrategyMode DesignMode/StrategyMode.cpp)
+add_executable(LazyMode DesignMode/SingleMode/LazyMode.cpp)
+add_executable(HungryMode DesignMode/SingleMode/HungryMode.cpp)
+add_executable(LazyModeSafety DesignMode/SingleMode/LazyModeSafety.cpp)
